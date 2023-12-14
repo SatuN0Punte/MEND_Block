@@ -1,25 +1,41 @@
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 const Post = () => {
   return (
-    <div className='post'>
-      <div className='images'>
-        <Link to='/post-detail'>
-          <img src="https://s.isanook.com/ns/0/ud/1359/6796150/raccoon.jpg?ip/crop/w728h431/q80/webp" alt='' />
+    <div className="post">
+      <div className="images">
+        <Link to="/post-detail">
+          <img
+            src="https://s.isanook.com/ns/0/ud/1359/6796150/raccoon.jpg?ip/crop/w728h431/q80/webp"
+            alt=""
+          />
         </Link>
       </div>
-      <div className='texts'>
-        <Link to='/post-detail'>
-          <h2>ไล่ออกเปลี่ยนชีวิต! "อดีตครูสาว" ผันตัวทำโอนลีแฟนส์ แค่ 6 เดือนกวาดเงินไป 35 ล้าน</h2>
+      <div className="texts">
+        <Link to="/post-detail">
+          <h2>
+            "แรคคูน" สวมวิญญาณนินจา ปีนตึก 23 ชั้น - ชาวเมืองฮือฮา
+            แห่ถ่ายคลิปลงโซเชียล
+          </h2>
         </Link>
-        <p className='info'>
-          <a href='https://www.sanook.com/news/6796150/ className='author'>
+        <p className="info">
+          <a href="https://www.sanook.com/news/6796150/" className="author">
             Punyaphat
           </a>
-          <time>12 December 2023 - 18:52</time>
+          <time>13 June 2019 - 19:52</time>
         </p>
-        <p className='summary'>
-        "แรคคูน" สวมวิญญาณนินจา ปีนตึก 23 ชั้น - ชาวเมืองฮือฮา แห่ถ่ายคลิปลงโซเชียล
+        <p className="summary">
+          ผู้ที่สัญจรไปมา และผู้ที่อยู่ในอาคาร UBS Tower ในรัฐมินนิโซตาของสหรัฐ
+          ต้องหยุดเดินและหยุดทำงานไปชั่วขณะ
+          แล้วหยิบโทรศัพท์ขึ้นมาบันทึกภาพความน่ารักของแรคคูนตัวหนึ่ง
+          ที่ปีนตึกสูง 23 ชั้นหลังนี้ มานอนตรงขอบหน้าต่าง
+          ที่ทั้งสูงและน่าหวาดเสียว ก่อนหน้านี้
+          มีคนพบเห็นแรคคูนตัวดังกล่าวปีนป่ายอยู่ที่ดาดฟ้าสำนักงานบริเวณใกล้เคียง
+          และนำตัวออกมาแล้ว แต่แทนที่จะไปอยู่ในที่ที่ปลอดภัย
+          กลับมาปีนป่ายอาคารสูงหลังนี้ขึ้นลงไปมา
+          ผู้คนที่อยู่ในอาคารต่างก็โพสต์รูปของมันลงในโซเชียลมีเดีย จนเกิดกระแส
+          #mprraccoon ในทวิตเตอร์ นอกจากนี้
+          ยังมีการถ่ายทอดสดการปีนป่ายของแรคคูนตัวนี้ในเฟสบุ๊กไลฟ์ด้วย
         </p>
       </div>
     </div>
